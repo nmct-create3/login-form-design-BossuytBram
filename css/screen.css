@@ -170,7 +170,12 @@ a:hover,
 a:focus {
     color: #3385FF;
 }
-
+input {
+    display: block;
+}
+label{
+    display: block;
+}
 /*------------------------------------*\
 #OBJECTS
 \*------------------------------------*/
@@ -442,7 +447,11 @@ a:focus {
     ---
     Everything form related here
 */
-
+.c-form-field__option{
+    display: flex;
+    align-items: flex-start;
+    
+}
 /*
     Component: Input
     ---
@@ -463,7 +472,6 @@ a:focus {
 */
 
 .c-label {
-
 }
 
 /* If a input is focused within the form-field class change te color of the label */
@@ -500,11 +508,12 @@ a:focus {
 
 .c-logo {
     height: 24px;
+    display: flex;
+    justify-content: center;
 }
 .c-logo__symbol {
     height: 100%;
-    display: block;
-    align-items: center;
+
 }
 .c-logo__path--1 {
     fill:#20223A;
