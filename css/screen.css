@@ -449,7 +449,7 @@ label{
 */
 .c-form-field__option{
     display: flex;
-    align-items: flex-start;
+    align-items:center
     
 }
 /*
