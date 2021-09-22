@@ -472,9 +472,12 @@ label{
     font-size: 16px;
     line-height: 24px;
     padding: 11px;
+    outline: none;
 }
 
 .c-input:focus {
+    /* box-shadow: h-offset v-offset blur spread color; */
+    box-shadow: 0 0 0 3px #3385ff4d;
 }
 
 /*
