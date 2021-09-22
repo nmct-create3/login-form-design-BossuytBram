@@ -502,19 +502,28 @@ label{
 */
 
 .c-button {
-
+font-size: 16px;
+font-weight:inherit ;
+border-style: solid;
+border-color: #2E77E6;
+border: 1px solid #2E77E6;
+border-radius: 3px;
+background-color: #3385FF;
+padding: 13px;
+color: white;
+width: 100%;
 }
 
 .c-button:hover {
-
+background-color: #2C78E9;
 }
 
 .c-button:focus {
-
+outline: none;
 }
 
 .c-button:active {
-
+color: whitesmoke;
 }
 
 .c-button--block {
