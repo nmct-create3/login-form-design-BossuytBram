@@ -1,3 +1,4 @@
+
 /*------------------------------------*\
 #FONTS
 \*------------------------------------*/
@@ -462,6 +463,7 @@ label{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    outline: none;
     width: 100%;
     border-style: solid;
     border-color: #E2E3E7;
@@ -473,6 +475,7 @@ label{
     line-height: 24px;
     padding: 11px;
     outline: none;
+    /* box-sizing: border-box; */
 }
 
 .c-input:focus {
@@ -547,6 +550,29 @@ color: whitesmoke;
 }
 .c-logo__path--3 {
     fill:#1B4186;
+}
+.c-card {
+    background-color: white;
+    border-style: solid;
+    border-color: #E2E3E7;
+    border: 1px solid #E2E3E7;
+    /* border: 1px solid;
+    box-shadow: 1px 1px #CACCD4; */
+}
+.c-card__body{
+    padding: 40px;
+}
+.c-card__title{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 0px;
+}
+.c-card__footer{
+    border-top: 1px solid #E2E3E7;
+    display: flex;
+    justify-content: center;
+    padding: 21px;
 }
 /*------------------------------------*\
 #UTILITIES
