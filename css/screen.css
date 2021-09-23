@@ -194,6 +194,9 @@ label{
 
 .o-row--login {
     /* stuff here to align the card */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 /* size modifiers */
@@ -682,6 +685,7 @@ color: whitesmoke;
 
 .u-text-sm {
     font-size: 14px;
+    color: #757787;
 }
 
 /*
