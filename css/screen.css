@@ -31,9 +31,14 @@
 
     --global-baseline: 8px; 
     --global-whitespace: calc(var(--global-baseline) * 3); /* = 24px */
-    --global-whitespace-xl: calc(var(--global-whitespace) * 2); /* = 48px */
+    --global-whitespace-xs: calc(var(--global-baseline) / 2); /* = 4px */
+    --global-whitespace-sm: 8px;
+    --global-whitespace-md:calc(var(var(--global-baseline)) * 2); /* = 16px */
+    --global-whitespace-lg:calc(var(var(--global-baseline)) * 4) ; /* = 32px */   
+    --global-whitespace-xl: calc(var(--global-whitespace-md) * 2); /* = 48px */    
+    --global-whitespace-xxl: calc(var(var(--global-whitespace-lg)) * 2);    /* = 64px*/
 
-    
+
 }
 
 /* CSS variables here */
